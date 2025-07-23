@@ -14,4 +14,4 @@ RUN mkdir -p /run/sshd
 
 EXPOSE 8080
 
-CMD ["python", "-m","aktools"]
+CMD ["python", "-m","aktools","--host","0.0.0.0"]
